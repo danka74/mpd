@@ -6,18 +6,19 @@ Id: Medication-eu-mpd
 Title: "Medication: XpanDH"
 Description: "This profile defines how to represent MedicationRequest in FHIR for the purpose of the XpanDH project eP/eD POC."
 
-* extension contains $medication-definition-r5 named MedicationDefinitionR5 0..
-* extension[MedicationDefinitionR5].valueReference only Reference(MedicationKnowledge)
-
-* insert ImposeProfile ( $Medication-uv-ips , 0)
+* definition only Reference(MedicationKnowledge)
 * insert MedicationEpCommon
 
 * ingredient
-  * itemCodeableConcept from $eHDSISubstance (preferred)
-  * itemReference only Reference (MedicationEuMpd)
-  * strength ^short = "A kind of strength"
-  * strength ^definition = """A kind of strength.
+  * item from $eHDSISubstance (preferred)
+  * item only CodeableReference (MedicationEuMpd)
+  * strength[x] ^short = "A kind of strength"
+  * strength[x] ^definition = """A kind of strength.
   Definitional resources should be used for specifying the different types of strengths: presentation; concentration;.."""
-* form from $eHDSIDoseForm
+* doseForm from $eHDSIDoseForm
+
 
 // ADD RULES FROM IPS
+
+
+
