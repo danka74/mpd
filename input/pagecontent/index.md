@@ -1,22 +1,12 @@
 {% include fsh-link-references.md %}
 
-<!-- <div xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<blockquote class="stu-note">		
-		<p>Obligations have been added to this version of the guide only as <b>Informative</b> material to collect feedback about their usage.</p>		
-		<p>For more details about obligations please refer to the <a href="obligations.html">Obligations page</a></p>
-	</blockquote>
-</div>
- -->
-
-
 ### Scope
 
 Specify a set of rules to be applied to HL7 FHIR to define how to represent **Medication Prescription and Dispense** data in the **European** Context, coherently with the [European eHN Guidelines](https://health.ec.europa.eu/ehealth-digital-health-and-care/key-documents_en).
 
 
 ### Purpose
-The goal of this Implementation Guide is to define an European standard for Medication Prescriptions and Dispense reports to facilitate the harmonization among the national initiatives and prepare the ground for the European EHR eXchange Format (EEHRxF).
+The goal of this Implementation Guide is to define the European standard for Medication Prescriptions and Dispense reports to facilitate the harmonization among the national initiatives and prepare the ground for the European EHR eXchange Format (EEHRxF).
 
 This project is the result of a cross SDO collaboration with IHE Pharmacy, realized in collaboration with several other European and national organizations and projects.
 
@@ -35,12 +25,12 @@ The working group also includes participants from MyHealth@EU, HL7 Pharmacy, EPI
 
 Please see [meeting minutes](https://confluence.hl7.org/display/HEU/Medication+Prescription+and+Dispense%2C+Edition+1) for additional information.  
 
-### Navigating the profiles
+<!-- ### Navigating the profiles
 
 The following diagrams provide a browseable overview of the profiles specified by this guide (not all the relationships have been reported).
 
 < TO BE COMPLETED >
-
+-->
 ### Dependencies
 
 {% include dependency-table.xhtml %}
