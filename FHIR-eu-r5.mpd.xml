@@ -15,7 +15,6 @@
 <artifact id="StructureDefinition/Medication-eu-mpd" key="StructureDefinition-Medication-eu-mpd" name="Medication: MPD"/>
 <artifact id="StructureDefinition/ihe-ext-medicationrequest-totalamount" key="StructureDefinition-ihe-ext-medicationrequest-totalamount" name="MedicationRequest - Total Amount"/>
 <artifact id="StructureDefinition/MedicationRequest-eu-mpd" key="StructureDefinition-MedicationRequest-eu-mpd" name="MedicationRequest: MPD"/>
-<artifact id="StructureDefinition/Patient-eu-mpd" key="StructureDefinition-Patient-eu-mpd" name="Patient: MPD"/>
 <artifact id="ConceptMap/eP2FHIR-eu-mpd" key="ConceptMap-eP2FHIR-eu-mpd" name="eHN Subject to this guide Map"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
