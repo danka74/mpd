@@ -6,8 +6,8 @@ Id: Medication-eu-mpd
 Title: "Medication: MPD"
 Description: "This profile defines how to represent Medication data on ePrescription and eDispensation"
 
-
 * insert MedicationEpCommon
+
 * totalVolume MS // item.amount; packSize
   * ^short = "Total volume or number of package items inside a package. This element should not contain overall prescribed amount, but describe the product itself. In case of complex packages, this element could be left empty, and number of different items could be indicated in the nested Medications." //packSize (almost)
 * ingredient
@@ -25,6 +25,7 @@ Description: "This profile defines how to represent Medication data on ePrescrip
   * ^short = "Dose form. For a branded product, this would most likely be authorised dose form, but it could also be administrable dose form. For package items, it could be item's individual dose form." // doseForm
 * marketingAuthorizationHolder MS
 
+
 Extension: MedicationDevice
 Id:        ihe-ext-medication-device
 Title:     "Medication - Device"
@@ -37,6 +38,7 @@ Context: Medication
 * extension[device] ^short = "Coded or referenced device"
 * extension[quantity].value[x] only Quantity
 * extension[quantity] ^short = "Number of defined devices in te package"
+
 
 Extension: MedicationStrengthSubstance
 Id: ihe-ext-medication-strengthsubstance
