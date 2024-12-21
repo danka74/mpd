@@ -20,6 +20,7 @@ copyright: >-
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
+# WHY pharm dependency in R4 ?
 dependencies:
    hl7.fhir.uv.ips: current
    ihe.pharm.mpd: current

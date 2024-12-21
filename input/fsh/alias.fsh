@@ -64,3 +64,5 @@ Alias: $Procedure-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Proced
 Alias: $Device-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Device-uv-ips
 Alias: $Observation-results-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips
 Alias: $Observation-bp = http://hl7.org/fhir/StructureDefinition/bp
+
+Alias: $patient-eu-core = http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core
