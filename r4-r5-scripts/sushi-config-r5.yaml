@@ -230,7 +230,7 @@ groups:
   name: Mappings from eHN Data Sets
   description: These concept maps represent a high-level mapping from eHN guidelines data sets and FHIR profiles in this IG. Please note that mappings from EHDS logical models are provided on [Logical models page](logicalmodels.html).
   resources:
-    - eP2FHIR-eu-mpd
+#    - eP2FHIR-eu-mpd
     - eD2FHIR-eu-mpd
     - medProd2FHIR-eu-mpd
 
